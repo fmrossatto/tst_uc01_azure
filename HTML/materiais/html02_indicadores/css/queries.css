@@ -1,0 +1,22 @@
+/** MEDIA QUERIES **/
+	.media-a  {display:none;}
+	.media-ab {display:none;}
+	.media-b  {display:none;}
+	.media-bc {display:block;}
+	.media-c  {display:block;}
+/** dispositivos médios (tablets, e  e menores que 99p2x) **/
+@media (max-width: 1200px) {
+	.media-a  {display:none;}
+	.media-ab {display:block;}
+	.media-b  {display:block;}
+	.media-bc {display:block;}
+	.media-c  {display:none;}
+}
+/** dispotivos extra pequenos (smartphones, e menores que 576px) **/
+@media (max-width: 768px) {
+	.media-a  {display: block;}
+	.media-ab {display: block;}
+	.media-b  {display:none;}
+	.media-bc {display:none;}
+	.media-c  {display:none;}
+}

@@ -1,0 +1,56 @@
+/** MEDIA QUERIES **/
+	.media-a  {display:none;}
+	.media-ab {display:none;}
+	.media-b  {display:none;}
+	.media-bc {display:block;}
+	.media-c  {display:block;}
+/** dispositivos médios (tablets, e  e menores que 99p2x) **/
+@media (max-width: 1200px) {
+	.media-a  {display:none;}
+	.media-ab {display:block;}
+	.media-b  {display:block;}
+	.media-bc {display: block;}
+	.media-c  {display:none;}
+	.no-p-b {padding-right:0;}
+}
+/** dispotivos extra pequenos (smartphones, e menores que 576px) **/
+@media (max-width: 768px) {
+	.media-a  {display: block;}
+	.media-ab {display: block;}
+	.media-b  {display:none;}
+	.media-bc {display:none;}
+	.media-c  {display:none;}
+	.no-p-a{padding-right:0;}
+	.texto-link-capa {font-size: 18px;}
+}
+@media (max-width: 1200px) {
+	nav ul li {
+	  display: block;
+	  width: 100%;
+	}
+	nav ul {
+	  border-top: 1px solid #fff;
+	}
+	.sub-titulo-body {
+		padding: 20px;
+	}
+}
+@media (max-width: 768px) {
+	.sub-titulo-body {
+		padding: 10px;
+	}
+	.pensando-na-pratica {
+	  background-image: url(bgs/refletir.png);
+	  background-position: center 10px;
+	  background-repeat: no-repeat;
+	  padding-left: 20px;
+	  padding-top: 110px;
+	}
+	.dica {
+	  background-image: url(bgs/dica.png);
+	  background-position: center 10px;
+	  background-repeat: no-repeat;
+	  padding-left: 20px;
+	  padding-top: 110px;
+	}
+}

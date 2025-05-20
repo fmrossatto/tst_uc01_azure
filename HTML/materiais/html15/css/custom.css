@@ -1,0 +1,186 @@
+body{
+    background: url(../images/background.jpg);
+    background-attachment: fixed;
+}
+
+.caixa{
+    width: 100%;
+    border: 3px solid #655100;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.imagem1 img{
+    width: 300px;
+}
+p{
+    line-height: 2em;
+}
+
+.legenda-imagem{
+    font-size: 14px;
+}
+
+.modal {
+    z-index: 1040 !important;
+}
+.modal-100 {
+    background-color: white;
+}
+
+.modal-100 .modal-dialog {
+    width: 100%;
+    max-width: 1100px;
+    box-shadow: none !important;
+    margin: 40px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.modal-100 .modal-content {
+    box-shadow: none !important;
+    border: 0;
+}
+
+.modal-backdrop {
+    z-index: 1039 !important;
+}
+
+.citacao{
+    width: 80%;
+    margin-left: auto;
+}
+.citacao p{
+    font-size: 14px;
+}
+.voltar-topo{
+    cursor: pointer;
+    width: 252px;
+    height: 66px;
+    background: url(../images/voltar.png);
+    margin: 70px auto 0; 
+}
+.voltar-topo:hover{
+    background: url(../images/voltar_hover.png);
+}
+.destaque-amarelo {
+    border: 5px solid #F4B63B;
+    padding-left: 48px;
+    padding-right: 48px;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.icone-destaque {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -42px;
+    width: 80px;
+}
+
+.ilustracao{
+    height: 300px;
+    background: url(../images/perosnagem_2.png) no-repeat;
+    width: 90%;
+}
+.ilustracao p{
+    padding-top: 100px;
+    padding-right: 20px;
+    color: #fff;
+    width: 60%;
+    float: right;
+    margin-right: 96px;
+}
+.box-lista{
+    background: url(../images/textura_box.jpg);
+    padding: 7px;
+}
+.box-lista ul{
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 15px;
+    border: 2px solid #fff;
+}
+.box-lista ul li{
+    color: #fff;
+    list-style-image: unset;
+    list-style-type: none;
+    line-height: 2em;
+}
+.box-lista ul li::before{
+    content: '';
+    width:10px;
+    height:10px;
+    background:#fff;
+     /* Rotação */  
+     transform: rotate(-45deg);  
+     display: inline-block;
+     margin-right: 11px;
+}
+
+.btn-constituicao{
+    background: url(../images/bt_1.png) no-repeat;
+    height: 130px;
+    width: 324px;
+    margin: auto;
+}
+.btn-constituicao:hover{
+    background: url(../images/bt_1_h.png) no-repeat;
+}
+.btn-codigo{
+    background: url(../images/bt_2.png) no-repeat;
+    height: 130px;
+    width: 324px;
+    margin: auto;
+}
+.btn-codigo:hover{
+    background: url(../images/bt_2_h.png) no-repeat;
+}
+@media only screen and (max-width: 994px) {
+    .ilustracao{
+        width: 100%;
+    }
+    .ilustracao p{
+        padding-top: 100px;
+        padding-right: 10px;
+        color: #fff;
+        width: 58%;
+        float: right;
+        margin-right: 0;
+        line-height: initial;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ilustracao {
+        height: 300px;
+        background: url(../images/personagem.png) no-repeat -28px 8px, url(../images/textura_box.jpg);
+        padding-top: 10px;
+    }
+    .ilustracao p {
+        padding-top: 76px;
+        padding-right: 10px;
+        color: #fff;
+        width: 53%;
+        float: right;
+        margin-right: 0;
+        line-height: initial;
+    }
+    .fundo-tecnicos{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .icone-destaque {
+        position: absolute;
+        top: 0;
+        transform: translateY(-50%);
+        left: 37%;
+        width: 80px;
+    }
+    .destaque-amarelo{
+        padding-top: 30px;
+    }
+}

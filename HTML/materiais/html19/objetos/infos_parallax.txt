@@ -1,0 +1,10 @@
+Título1
+Roboto Slab Bold 50pt #fff espaçamento entrelinhas 64,27pt
+box:#036280
+
+Demais blocos:
+Título: Roboto Slab bold 30pt #036280
+texto: roboto regular light 18pt espaço entrelinhas 35pt #2d2d2d
+
+box destaque
+12px #f7b53b

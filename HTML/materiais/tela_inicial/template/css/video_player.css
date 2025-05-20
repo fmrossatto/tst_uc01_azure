@@ -1,0 +1,65 @@
+/*
+CSS removido de inline e linkado como arquivo
+*/
+html, body {
+    height: 100%;
+  }
+  .aviso {
+    background-color: rgba(0,0,0,0.45);
+    color: white;
+    position: fixed;
+    left: 0px; top: 0px;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+  }
+  .aviso p {
+    background-color: #333;
+    margin-top: 0px; padding: 25px;
+  }
+    body {
+      background: url(../images/player-bg.jpg) top left repeat #fff;
+      padding-top: 140px;
+    }
+    .player iframe {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      position: relative;
+      display: block;
+      max-width: 851px;
+      width: 100%;
+      height: 479px;
+  
+    }
+  .over-loader {top: 0px;}
+    .player {
+  
+      overflow: hidden;
+      background: url(../images/player-tv-bg.png) top center no-repeat;
+      height: 686px;
+      /* adicionado para dar uma aparencia melhor, o estilo anterior ficava posicionado estranhamente na tela*/
+      bottom: 0;
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+    @media only screen and (max-width: 991px){
+      .player {background: none; width: 100%; height: 100%; }
+      .player iframe {
+        margin-top: 0px;
+        max-width: unset;
+        width:100%;
+        height: 100%;
+      }
+  
+      body {
+        padding-top: 80px;
+      }
+    }
+  
+    @media only screen and (max-width: 991px) and (orientation: portrait) {
+      .aviso { display: block;}
+    }

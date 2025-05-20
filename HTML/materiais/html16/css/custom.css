@@ -1,0 +1,261 @@
+h2{
+    color: #0A6280;
+    font-weight: bold;
+}
+
+h3{
+    color: #077F98;
+}
+
+.bg1{
+    background: url(../images/background_1.jpg);
+}
+
+.fundo-tecnicos{
+    margin-top: 130px;
+    background-color: rgba(255,255,255,0.9);
+    border: none;
+    border-radius: unset;
+    padding-top: 20px;
+    height: 680px;
+    overflow: auto;
+}
+.infografico {
+    background-color: #292929;
+    color: #fff;
+    padding: 0px 45px;
+}
+.infografico2{
+    background-color: rgba(247,214,155,0.8);
+    padding: 0px 45px;
+}
+.caixa{
+    width: 100%;
+    border: 3px solid #655100;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.imagem1 img{
+    width: 300px;
+}
+p{
+    line-height: 2em;
+}
+
+.legenda-imagem{
+    font-size: 14px;
+}
+
+.modal {
+    z-index: 1040 !important;
+}
+.modal-100 {
+    background-color: white;
+}
+
+.modal-100 .modal-dialog {
+    width: 100%;
+    max-width: 1100px;
+    box-shadow: none !important;
+    margin: 40px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.modal-100 .modal-content {
+    box-shadow: none !important;
+    border: 0;
+}
+
+.modal-backdrop {
+    z-index: 1039 !important;
+}
+
+.citacao{
+    width: 80%;
+    margin-left: auto;
+}
+.citacao p{
+    font-size: 14px;
+}
+.voltar-topo{
+    cursor: pointer;
+    width: 252px;
+    height: 66px;
+    background: url(../images/voltar.png);
+    margin: 70px auto 0; 
+}
+
+.destaque-amarelo {
+    border: 5px solid #F4B63B;
+    padding-left: 48px;
+    padding-right: 48px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.icone-destaque {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -42px;
+    width: 80px;
+}
+.avancar{
+    height: 87px;
+    width: 87px;
+    background: url(../images/avanca.png);
+    position: absolute;
+    right:10px;
+    top:40vh;
+    cursor: pointer;
+}
+.avancar:hover{
+    background: url(../images/avanca_hover.png);
+}
+.voltar{
+    height: 87px;
+    width: 87px;
+    background: url(../images/volta.png);
+    position: absolute;
+    left:10px;
+    top:40vh;
+    cursor: pointer;
+}
+.voltar:hover{
+    background: url(../images/volta_hover.png);
+}
+@media only screen and (max-width: 994px) {
+    .ilustracao{
+        width: 100%;
+    }
+    .ilustracao p{
+        padding-top: 100px;
+        padding-right: 10px;
+        color: #fff;
+        width: 58%;
+        float: right;
+        margin-right: 0;
+        line-height: initial;
+    }
+    .fundo-tecnicos{
+        height: auto;
+        overflow: hidden;
+    }
+    .bg1{
+        background-attachment: fixed;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ilustracao {
+        height: 300px;
+        background: url(../images/personagem.png) no-repeat 0 9px, url(../images/textura_box.jpg);
+        padding-top: 10px;
+    }
+    .ilustracao p {
+        padding-top: 76px;
+        padding-right: 10px;
+        color: #fff;
+        width: 53%;
+        float: right;
+        margin-right: 0;
+        line-height: initial;
+    }
+    .botoes-nav{
+        margin-top: 10px !important;
+    }
+}
+
+
+
+ul#menu {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    display: block;
+    margin: 80px 0 4vh 0;
+}
+ul#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px 0;
+    background-color: rgba(255,255,255,0.9);
+}
+ul#menu li.ativo{
+    background-color: #077F98;
+}
+ul#menu li.ativo a{
+    color: #fff !important;
+}
+ul#menu li:hover{
+    background-color: #077F98;
+}
+ul#menu li a{
+    color: #077F98 !important;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+ul#menu li a:active, ul#menu li a:focus{
+text-decoration: none;
+}
+ul#menu li:hover a{
+    color: #fff !important;
+    text-decoration: unset;
+}
+.botoes-nav {
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.btn.modal1{
+    height: 79px;
+    width: 185px;
+    background: url(../images/bt_1.png) no-repeat;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.btn.modal1:hover{
+    background: url(../images/bt_1_hover.png) no-repeat;
+}
+
+.btn.modal2{
+    height: 79px;
+    width: 185px;
+    background: url(../images/bt_2.png) no-repeat;
+    margin-bottom: 30px;
+}
+.btn.modal2:hover{
+    background: url(../images/bt_2_hover.png) no-repeat;
+}
+
+.btn.modal3{
+    height: 79px;
+    width: 185px;
+    background: url(../images/bt_3.png) no-repeat;
+}
+.btn.modal3:hover{
+    background: url(../images/bt_3_hover.png) no-repeat;
+}
+
+@media only screen and (min-width: 1600px){
+    .voltar{
+        left: 10%;
+    }
+
+    .avancar{
+        right: 10%;
+    }
+}
+
+@media only screen and (max-width: 1170px){
+    .voltar, .avancar{
+        display: none !important;
+    }
+
+}

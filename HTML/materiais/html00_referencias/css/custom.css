@@ -1,0 +1,10 @@
+.url {
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+body{
+	background-image: url(../images/background_referencias.jpg);
+	background-attachment: fixed;
+	word-break: break-all;
+}

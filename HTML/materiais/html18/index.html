@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Conceitos e tipos de acidente de trabalho (CAT, NTEP e FAP)</title>
+
+    <!-- Bootstrap -->
+    <link href="../../template/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../template/css/tecnicos_senac.css" rel="stylesheet">
+    <link href="../../template/css/cores.css" rel="stylesheet">
+    <link href="../../template/css/sncload.css" rel="stylesheet">
+    <link href="../../template/css/magnific-popup.css" rel="stylesheet">
+    <!-- referencia ao arquivo css com estilos especificos da pagina -->
+    <!--<link href="custom.css" type="text/css" rel="stylesheet"> -->
+    <!-- css necessario para o print -->
+    <link href="../../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="../../template/css/print.css" type="text/css" rel="stylesheet">
+    <link href="css/custom.css" type="text/css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Mateus Silva Bastos</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">162397800.000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Mateus Silva Bastos</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+    <!-- MARCA D´ÁGUA -->
+    <img src="../../template/images/logo_senac_colorido.png" id="marcadaguaLogo">
+    <!-- /MARCA D´ÁGUA -->
+
+    <div id='sncloader' class='over-loader'>
+        <div class="over-cell">
+            <div id="sncload"></div>
+        </div>
+    </div>
+    <header id="topo" class="senac no-print">
+        <div class="header-tecnicos container">
+            <h1 id="nome-curso">Segurança do Trabalho</h1>
+            <div id="logo-senac"><img src="../../template/images/logo-senac.png" alt="logo do senac"></div>
+        </div>
+        <div id="sombra"></div>
+    </header>
+
+    <div id="booklet" class="container fundo-tecnicos">
+        <header class="no-print">
+            <!-- BTO IMPRIMIR -->
+            <div class="grupo-imprimir no-print">
+                <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+                    <span class="fa fa-print"></span> <span>Imprimir</span>
+                </button>
+            </div>
+            <!-- /BTO IMPRIMIR -->
+
+
+        </header>
+        <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+        <section class="paginas">
+            <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+            <div class="pagina">
+                <div class="row">
+                    <div class="col-lg-9 col-xs-12">
+                        <h2>Conceitos e tipos de acidente de trabalho (CAT, NTEP e FAP)</h2>
+                    </div>
+                    <div class="col-xs-12">
+                        <p>Um dos principais conceitos que o senso comum aborda ao tratar da segurança do trabalho é a
+                            prevenção dos acidentes de trabalho. Portanto, é de suma importância que tal conceito esteja
+                            claro para os futuros profissionais da área de saúde e segurança do trabalho. </p>
+                        <p>Outro fato interessante é que o acidente de trabalho é tratado sob diferentes pontos de vista
+                            nesse ramo de atividade, os quais são divididos basicamente em dois conceitos:
+                            <strong>legal</strong> e <strong>prevencionista</strong>. </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                    </div>
+                    <div class="col-lg-5 col-xs-12 col-lg-offset-1">
+                        <a data-toggle="modal" href='#modal-constituicao'>
+                            <div class="btn-codigo">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-5 col-xs-12">
+                        <a data-toggle="modal" href='#modal-codigo'>
+                            <div class="btn-constituicao">
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="acessivel">
+                    <h3><em>Conceito legal</em></h3>
+
+                    <p>O conceito legal sobre acidente de trabalho é citado na <em>Lei n.º 8.213</em>, de 24 de julho de
+                        1991. Os
+                        benefícios da Previdência Social, como o próprio nome diz, são considerados legalmente para que
+                        um acidente seja
+                        relacionado à atividade exercida por um trabalhador:</p>
+                    <div class="citacao">
+                        <em>
+                            <p>Acidente do trabalho é aquele que ocorrer pelo exercício do trabalho a serviço da
+                                empresa, provocando
+                                lesão corporal ou perturbação funcional que cause a morte, ou perda, ou redução,
+                                permanente ou
+                                temporária, da capacidade para o trabalho.</p>
+                        </em>
+                    </div>
+                    <p>Ao interpretar o conceito citado pela legislação, conclui-se que, para que um acidente de
+                        trabalho seja
+                        caracterizado, é necessário ocorrer algum tipo de lesão ou alguma consequência ligado
+                        diretamente à integridade
+                        física ou à saúde dos trabalhadores.</p>
+
+
+                    <h3><em>Conceito prevencionista</em></h3>
+                    <p>O conceito prevencionista, por sua vez, aborda a questão do acidente de forma mais ampla, no
+                        sentido de que, além de
+                        lesões ou prejuízos à saúde dos trabalhadores, outros fatores devem ser considerados: </p>
+                    <div class="citacao">
+                        <p>Acidente de trabalho é qualquer ocorrência não programada, inesperada ou não, que interfere
+                            ou interrompe a
+                            realização de uma determinada atividade, trazendo como consequência isolada ou simultânea a
+                            perda de tempo,
+                            danos materiais ou lesões.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>Conceito legal x conceito prevencionista</h4>
+                        <p>A principal divergência entre os dois conceitos está no fato de que, no conceito legal, é
+                            preciso ocorrer alguma lesão ou alguma perturbação à saúde do trabalhador. Já no conceito
+                            prevencionista, antes mesmo de ocorrerem lesões, a perda de tempo e de materiais também é
+                            levada em conta, pois houve uma falha no processo de trabalho. Ainda, se a perda for apenas
+                            material, é classificada como <strong>incidente</strong>, ou seja, um quase acidente.</p>
+                    </div>
+
+                </div>
+                <div class="destaque-amarelo">
+                    <img class="icone-destaque no-print" src="images/icone.png">
+                    <p>Quando um incidente ocorre, deve-se dar a devida atenção ao fato, pois, por mais que naquele
+                        momento não houvesse nenhum tipo de lesão aos trabalhadores, em um próximo, se a mesma falha for
+                        repetida, algo com proporções maiores pode vir a acontecer.</p>
+                </div>
+
+                <!-- <div class="row">
+                    <div class="col-xs-12">
+                        <h3>Divisão dos acidentes de trabalho</h3>
+                        <p>Os acidentes de trabalho podem ser divididos em três grupos: acidente típico, acidente de
+                            trajeto e doenças ocupacionais.</p>
+                    </div>
+                    <div class="col-xs-12 col-lg-4">
+                        <img src="images/ilustra1.png" class="img-responsive center-block margin-left">
+                    </div>
+                    <div class="col-xs-12 col-lg-8">
+                        <p>Os <strong>acidentes típicos</strong> são aqueles que ocorrem subitamente nos locais de
+                            trabalho e durante a jornada, podendo causar danos aos trabalhadores (por exemplo, choques
+                            elétricos, cortes, queimaduras etc.).</p>
+                        <p>Os <strong>acidentes de trajeto</strong> são aqueles que ocorrem no trajeto do trabalhador
+                            para a residência ou ao contrário, com qualquer meio de locomoção, mesmo que seja com um
+                            veículo próprio do trabalhador. Cabe ressaltar que alterar o percurso descaracteriza o
+                            acidente de trajeto.</p>
+                    </div>
+                    <div class="col-xs-12-">
+                        <p>As <strong>doenças ocupacionais</strong> são aquelas geradas em consequência do trabalho,
+                            podendo ser divididas em doenças profissionais e doenças do trabalho.</p>
+                    </div>
+                </div> -->
+
+                <div class="row">
+                    <div class="col-xs-12 col-lg-9">
+                        <h3>CAT</h3>
+                        <p>Segundo determinação da Previdência Social, os empregadores devem comunicar acidentes de trabalho ou de trajeto e a ocorrência de doenças ocupacionais com os funcionários por meio da CAT (comunicação de acidente de trabalho).</p>
+                        <ul>
+                            <li><strong>Acidente de trabalho ou de trajeto</strong> é aquele ocorrido no exercício da atividade profissional a serviço da empresa ou no deslocamento entre residência e trabalho (e vice-versa) que provoque lesão corporal ou perturbação funcional e que cause a perda ou a redução (permanente ou temporária) da capacidade para o trabalho. Em último caso, pode causar a morte.</li>
+                            <li>As <strong>doenças ocupacionais</strong> são aquelas geradas em consequência do trabalho, podendo ser classificadas como doenças profissionais e doenças do trabalho.</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-lg-3">
+                        <img src="images/cat.png" alt="" class="img-responsive center-block">
+                    </div>
+                    <div class="col-xs-12">
+                        <p>O período para preencher a comunicação é até o primeiro dia útil após o acidente ocorrido, e,
+                            quando há óbito, este deve ser comunicado imediatamente às autoridades competentes.</p>
+                        <p>Mesmo havendo a obrigatoriedade de as empresas realizarem a comunicação do acidente por meio
+                            da CAT, o não preenchimento desta não impede que seja caracterizada a relação entre a
+                            atividade executada e a comprovação por perícia médica, principalmente nos casos em que
+                            ocorrem afastamentos superiores a 15 dias. </p>
+                    </div>
+                </div>
+
+                <div class="destaque-amarelo">
+                    <img class="icone-destaque no-print" src="images/icone.png">
+                    <p>Preencher a CAT não necessariamente concede aos trabalhadores acidentados pagamento de benefício
+                        por incapacidade. Algumas empresas, equivocadamente, apenas preenchem a CAT em situações em que
+                        o trabalhador acidentado é afastado. Contudo, todos os acidentes de trabalho devem ser
+                        comunicados, para fins de levantamentos estatísticos e estudos de aumento de casos de acidentes.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>As empresas sempre devem comunicar ao Instituto Nacional do Seguro Social (INSS) os acidentes
+                            do trabalho. As comunicações podem ser feitas destas formas:</p>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 infografico">
+                    <p>A <strong>CAT inicial</strong> é utilizada para acidentes típicos ou de trajeto, doenças profissionais e óbitos.</p>
+                    <!-- <p><strong>CAT de reabertura</strong>: utilizada quando um trabalhador é afastado em virtude do
+                        agravamento de uma lesão gerada por um acidente de trabalho. Aqui também podem ser citadas as
+                        doenças ocupacionais. Nesse caso, utiliza-se a mesma CAT emitida anteriormente para informar
+                        mais tempo de afastamento do trabalho.</p> -->
+                    <p>A <strong>CAT de reabertura</strong> será utilizada para casos de afastamento por agravamento de lesão de acidente do trabalho ou de doença profissional ou do trabalho.</p>
+                    <p><strong>A CAT de comunicação de óbito</strong>: utilizada quando um óbito não ocorre imediatamente
+                        em virtude de um acidente de trabalho ou de uma doença ocupacional. Cabe ressaltar que, nessa
+                        situação, uma CAT inicial já foi aberta.</p>
+                    <p>Na <strong>CAT de reabertura</strong>, deverão constar as mesmas informações da época do acidente, exceto quanto ao afastamento, último dia trabalhado, atestado médico e data da emissão, que serão relativos à data da reabertura. Não será considerada CAT de reabertura a situação de simples assistência médica ou de afastamento com menos de 15 dias consecutivos.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>A CAT deve ser preenchida preferencialmente no portal da Previdência Social na Internet, por
+                            meio de um <em>software</em> específico, ou nas agências de atendimento do INSS.</p>
+                    </div>
+                    <div class="col-lg-8 col-xs-12">
+                        <p>As CATs emitidas junto ao INSS devem ser fornecidas em quatro cópias:</p>
+                        <div class="lista">
+                            <p>Primeira via ao INSS</p>
+                            <p>Segunda via ao segurado ou dependente</p>
+                            <p>Terceira via ao sindicato de classe do trabalhador</p>
+                            <p>Quarta via à empresa</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-lg-4">
+                        <img src="images/ilustra2.png" class="img-responsive center-block">
+                    </div>
+                    <div class="col-xs-12">
+                        <p>Ainda, é possível acessar o programa disponível no <em>site</em> do INSS. O sítio
+                            disponibiliza o modelo de formulário da CAT e os documentos e as informações necessários
+                            para emissão desta etc.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>NTEP</h3>
+                        <p>Há algum tempo, um trabalhador que tivesse sofrido um acidente de trabalho ou adquirido uma
+                            doença ocupacional receberia benefícios específicos ou até mesmo estabilidade no emprego.
+                            Porém, para tanto, a CAT deveria ser emitida pela empresa, pois, caso contrário, o próprio
+                            trabalhador deveria comprovar que a lesão ou a doença adquirida teria relação com o trabalho
+                            por ele executado (nexo causal).</p>
+                        <p>Quando a empresa emitia a CAT, o INSS declarava o nexo técnico (NTP) afirmando que a doença
+                            tinha relação com o trabalho executado. Entretanto, se a CAT fosse emitida por outras partes
+                            diferentes das da empresa (sindicato ou o próprio trabalhador), o perito do INSS não levava
+                            tal fato em consideração e a doença não era vista como atrelada à atividade laboral.</p>
+                        <p>A Previdência Social não deixava de conceder o benefício de auxílio-doença (quando o
+                            afastamento é necessário, mas não tem relação com o trabalho). Nessas situações, o
+                            trabalhador deveria tentar comprovar o nexo da sua doença com o seu trabalho e converter o
+                            benefício para auxílio-doença acidentário.</p>
+                        <p>Em 2006, entrou em vigor a Lei n.º 11.430, que trouxe alterações significativas quanto à
+                            comprovação de acidentes de trabalho e ao trabalho do acidentado. Criou-se então o NTEP (Nexo Técnico Epidemiológico Previdenciário). A
+                            forma de abordagem passou a ter um aspecto coletivo ao invés de individual. A partir daí,
+                            para caracterizar o nexo causal das doenças ocupacionais, passaram a ser levados em conta
+                            levantamentos epidemiológicos estatísticos.</p>
+                    </div>
+                </div>
+                <div class="destaque-amarelo">
+                    <p>O significado de epidemiologia está ligado a estudos interdisciplinares de fatores que podem
+                        influenciar o aumento de doenças e a difusão delas em determinada população. O NTEP é aplicado
+                        para fixar o nexo causal das doenças ocupacionais, não estando ligado aos acidentes típicos.
+                    </p>
+                    <p>O NTEP pode ser representado pelo seguinte conceito:</p>
+
+                    <div class="ntpe">
+                        <p><strong>NTEP = NTP + EVIDÊNCIAS EPIDEMIOLÓGICAS</strong></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>O NTEP é mais abrangente, pois considera primeiramente o NTP (diagnóstico individual) e o
+                            cruza com as ocorrências estatísticas dentro da classificação nacional de atividades
+                            econômicas (CNAE). Resumidamente, o NTEP identifica quais são as doenças e os acidentes que
+                            têm relação com o exercício de determinada atividade laboral de acordo com o INSS. </p>
+                        <p>Se estatisticamente existe relação entre a doença e o setor econômico, automaticamente o
+                            trabalhador tem direito ao benefício acidentário, diferentemente do que era praticado anos
+                            atrás, quando era pago apenas o benefício previdenciário normal. </p>
+                        <p>Nesses casos, a empresa precisa provar que não é responsável por causar dano ao trabalhador.
+                            Daí a importância de elaborar dados estatísticos e documentar programas de prevenção para
+                            uma possível justificativa da empresa de que não tem responsabilidade por aquela lesão. </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>FAP</h3>
+                        <p>O FAP (fator acidentário de prevenção) funciona com um multiplicador que visa a cobrar das
+                            empresas que apresentam maiores índices de doenças ocupacionais aposentadorias especiais e
+                            acidentes de trabalho. Essa cobrança serve como uma forma de custear os gastos públicos
+                            gerados com essas ocorrências, ou seja, quem não tem controle sobre a segurança paga
+                            alíquotas maiores.</p>
+                    </div>
+                    <div class="col-xs-12 col-lg-4">
+                        <img src="images/ilustra3.png" class="img-responsive center-block">
+                    </div>
+                    <div class="col-xs-12 col-lg-8">
+                        <p>O FAP varia de 0,5 a 2,0 de acordo com o número de doenças ocupacionais e acidentes ocorridos
+                            e deve ser multiplicado sobre percentuais de 1%, 2% e 3% conforme o grau de risco de cada
+                            uma das empresas. Essa situação está diretamente ligada ao seguro de acidente de trabalho
+                            (SAT), o qual é uma contribuição compulsória das organizações ao INSS, sendo um direito
+                            fundamental dos trabalhadores.</p>
+                    </div>
+                    <div class="col-xs-12">
+                        <p>Para custear esse direito dos trabalhadores, as empresas que apresentam atividades com risco
+                            relativamente menor contribuem mensalmente com um valor equivalente a 1% das remunerações
+                            pagas aos seus trabalhadores.</p>
+                        <p>As empresas que apresentam atividades com grau de risco médio são obrigadas a efetuar o
+                            pagamento de 2% dos valores totais de remuneração dos seus funcionários, e as empresas com
+                            atividades com grau de risco grave contribuem com 3% dentro dos mesmos critérios das demais
+                            empresas.</p>
+                        <p>O FAP varia anualmente, e o seu cálculo é feito com base nos últimos dois anos, no histórico
+                            de acidentes e registros de acidentes junto à Previdência Social.</p>
+                        <p>Veja o quadro a seguir para entender como são classificados os percentuais das empresas com
+                            relação aos graus de risco:</p>
+
+                        <table class="senac">
+                            <tr>
+                                <td><strong>Grau de risco</strong></td>
+                                <td><strong>Tipo de risco</strong></td>
+                                <td><strong>Contribuição (%)</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Grau 1</td>
+                                <td>Atividade preponderante cujo risco de acidente do trabalho seja considerado leve
+                                </td>
+                                <td>1%</td>
+                            </tr>
+                            <tr>
+                                <td>Grau 2</td>
+                                <td>Atividade preponderante cujo risco de acidente do trabalho seja considerado médio
+                                </td>
+                                <td>2%</td>
+                            </tr>
+                            <tr>
+                                <td>Grau 3</td>
+                                <td>Atividade preponderante cujo risco de acidente do trabalho seja considerado grave
+                                </td>
+                                <td>3%</td>
+                            </tr>
+                        </table>
+                        <p class="text-center legenda-imagem">
+                            Figura 1 – Quadro do grau de risco x percentual de contribuição
+                        </p>
+                        <p>Com relação ao funcionamento do NTEP e do FAP, a principal crítica parte do setor patronal e
+                            é a de que o diagnóstico de nexo de uma doença ocupacional se baseia apenas em estatísticas,
+                            não levando em conta, por exemplo, fatores individuais de predisposição ligados à genética
+                            das vítimas. Porém, a crítica não tem fundamento legal, até porque as legislações ligadas ao
+                            assunto definem que algumas doenças não são consideradas doenças do trabalho, tais como:</p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 infografico azul">
+                    <p>Doenças degenerativas (provocam a degeneração do organismo envolvendo vasos sanguíneos, tecidos,
+                        ossos, visão, órgãos internos e cérebro. Por exemplo: diabetes, arteriosclerose, hipertensão,
+                        doenças cardíacas e da coluna vertebral, câncer, mal de Alzheimer, reumatismo etc.)</p>
+                    <p>Doenças inerentes a grupos etários (são comuns a determinada faixa de idade)</p>
+                    <p>Doenças que não produzem incapacidade laborativa (não produzem empecilhos para o trabalhador
+                        executar suas atividades)</p>
+                    <p>Doenças endêmicas (afetam simultaneamente um grande número de pessoas)</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>Tipos de acidente de trabalho</h3>
+                        <p>Os acidentes que ocorrem no exercício de um trabalho a serviço da empresa e que podem
+                            provocar lesões corporais ou perturbações funcionais, óbito, perda ou diminuição da
+                            capacidade para o exercício de uma atividade, seja permanente ou temporária, são
+                            considerados acidentes de trabalho.</p>
+                        <p>As seguintes situações são consideradas acidentes de trabalho:</p>
+                        <p><strong>Doença profissional – </strong> É causada pelo exercício da atividade, de forma
+                            característica a determinada profissão, e consta na relação elaborada pela Previdência
+                            Social. </p>
+                        <p><strong>Doença do trabalho – </strong>É uma consequência de um trabalho realizado em
+                            condições especiais e que tenha ligação direta com a relação elaborada pela Previdência
+                            Social.</p>
+                        <p>Há equiparação a acidentes de trabalho também nestes casos:</p>
+
+
+                        <div id="slider-01" class="carousel slide hidden-xs" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#slider-01" data-slide-to="0" class=""></li>
+                                <li data-target="#slider-01" data-slide-to="1" class=""></li>
+                                <li data-target="#slider-01" data-slide-to="2" class="active"></li>
+                                <li data-target="#slider-01" data-slide-to="3" class=""></li>
+
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+
+                                <div class="item">
+                                    <div class="destaque-slider">
+                                        <p>Acidentes com relação ao trabalho que tenham contribuído diretamente para a
+                                            morte, a perda ou a diminuição da capacidade laboral do trabalhador ou até
+                                            mesmo gerado alguma lesão em que seja necessário auxílio médico para que o
+                                            trabalhador se recupere</p>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <!-- imagem 01 -->
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="destaque-slider">
+                                        <p>Acidentes sofridos pelos trabalhadores em seus locais de trabalho como
+                                            consequência de agressões, ofensa física intencional, imprudência,
+                                            negligência ou imperícia, desabamentos, inundações, incêndios etc.</p>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <!-- imagem 02 -->
+                                    </div>
+                                </div>
+
+                                <div class="item active">
+                                    <div class="destaque-slider">
+                                        <p>Doenças causadas por contaminação acidental do trabalhador no exercício de
+                                            sua função</p>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <!-- imagem 03 -->
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="destaque-slider">
+                                        <p>Acidentes sofridos fora do local de trabalho em situações como prestação de
+                                            serviços para a empresa, viagens a serviço da empresa e deslocamento de
+                                            trabalhador entre a residência e o local de trabalho deste, ou vice-versa
+                                            (desde que não tenha havido alteração ou interrupção no percurso alheia ao
+                                            trabalho)</p>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <!-- imagem 04 -->
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#slider-01" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#slider-01" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="visible-xs mobile col-xs-12">
+                        <div class="item">
+                            <div class="destaque-slider">
+                                <p>Acidentes com relação ao trabalho que tenham contribuído diretamente para a morte, a
+                                    perda ou a diminuição da capacidade laboral do trabalhador ou até mesmo gerado
+                                    alguma lesão em que seja necessário auxílio médico para que o trabalhador se
+                                    recupere</p>
+                            </div>
+                            <div class="carousel-caption">
+                                <!-- imagem 01 -->
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="destaque-slider">
+                                <p>Acidentes sofridos pelos trabalhadores em seus locais de trabalho como consequência
+                                    de agressões, ofensa física intencional, imprudência, negligência ou imperícia,
+                                    desabamentos, inundações, incêndios etc.</p>
+                            </div>
+                            <div class="carousel-caption">
+                                <!-- imagem 02 -->
+                            </div>
+                        </div>
+
+                        <div class="item active">
+                            <div class="destaque-slider">
+                                <p>Doenças causadas por contaminação acidental do trabalhador no exercício de sua função
+                                </p>
+                            </div>
+                            <div class="carousel-caption">
+                                <!-- imagem 03 -->
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="destaque-slider">
+                                <p>Acidentes sofridos fora do local de trabalho em situações como prestação de serviços
+                                    para a empresa, viagens a serviço da empresa e deslocamento de trabalhador entre a
+                                    residência e o local de trabalho deste, ou vice-versa (desde que não tenha havido
+                                    alteração ou interrupção no percurso alheia ao trabalho)</p>
+                            </div>
+                            <div class="carousel-caption">
+                                <!-- imagem 04 -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-lg-8">
+                        <p>É fundamental compreender a diferença entre conceitos legal e prevencionista do acidente de
+                            trabalho, para que os técnicos em segurança do trabalho possam atuar preventivamente,
+                            realizando ações nos primeiros sinais de falha nos processos. </p>
+                        <p>Além disso, os técnicos em segurança do trabalho precisam compreender que o acidente de
+                            trabalho é algo que pode ir além do que somente acidentes instantâneos, podendo também ser
+                            causado por doenças ocupacionais, o que gera danos à saúde dos trabalhadores e prejuízo às
+                            empresas.</p>
+                    </div>
+                    <div class="col-xs-12 col-lg-4">
+                        <img src="images/ilustra4.png" class="img-responsives center-block">
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="voltar-topo"></div>
+                    </div>
+                </div>
+
+
+
+                <div class="modal fade" id="modal-constituicao">
+                    <div class="modal-dialog">
+                        <div class="modal-content no-print" aria-hidden="true">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                    aria-hidden="true">&times;</button>
+                                <h3><em>Conceito legal</em></h3>
+
+                            </div>
+                            <div class="modal-body">
+                                <p>O conceito legal sobre acidente de trabalho é citado na <em>Lei n.º 8.213</em>, de 24
+                                    de julho de 1991. Os benefícios da Previdência Social, como o próprio nome diz, são
+                                    considerados legalmente para que um acidente seja relacionado à atividade exercida
+                                    por um trabalhador:</p>
+                                <div class="citacao">
+                                    <em>
+                                        <p>Acidente do trabalho é aquele que ocorrer pelo exercício do trabalho a
+                                            serviço da empresa, provocando lesão corporal ou perturbação funcional que
+                                            cause a morte, ou perda, ou redução, permanente ou temporária, da capacidade
+                                            para o trabalho.</p>
+                                    </em>
+                                </div>
+                                <p>Ao interpretar o conceito citado pela legislação, conclui-se que, para que um
+                                    acidente de trabalho seja caracterizado, é necessário ocorrer algum tipo de lesão ou
+                                    alguma consequência ligado diretamente à integridade física ou à saúde dos
+                                    trabalhadores.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modal-codigo">
+                    <div class="modal-dialog">
+                        <div class="modal-content no-print" aria-hidden="true">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                    aria-hidden="true">&times;</button>
+                                <h3><em>Conceito prevencionista</em></h3>
+
+                            </div>
+                            <div class="modal-body">
+                                <p>O conceito prevencionista, por sua vez, aborda a questão do acidente de forma mais
+                                    ampla, no sentido de que, além de lesões ou prejuízos à saúde dos trabalhadores,
+                                    outros fatores devem ser considerados: </p>
+                                <div class="citacao">
+                                    <p>Acidente de trabalho é qualquer ocorrência não programada, inesperada ou não, que
+                                        interfere ou interrompe a realização de uma determinada atividade, trazendo como
+                                        consequência isolada ou simultânea a perda de tempo, danos materiais ou lesões.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+        <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+        <footer class="text-center no-print">
+            <ul class="pagination">
+
+            </ul>
+        </footer>
+
+
+    </div>
+
+    </div>
+
+
+
+    <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+    <footer>
+    </footer>
+	-->
+    <!-- carrega todas as imagens dos icones nesta div
+ caso queira adicionar mais imagens de novos icones do css,
+ ou qualquer imagem que deva ser contabilizada durante a fase
+ de loading, referenciar aqui.
+ -->
+    <div class="ico-div-loader">
+        <img src="../../template/images/atencao.png">
+        <img src="../../template/images/bg-content.jpg">
+        <img src="../../template/images/bg-topo.jpg">
+        <img src="../../template/images/black-zoom-in-256.png">
+        <img src="../../template/images/concluindo.png">
+        <img src="../../template/images/curtir.png">
+        <img src="../../template/images/desafio.png">
+        <img src="../../template/images/dica.png">
+        <img src="../../template/images/doc.png">
+        <img src="../../template/images/fundamental.png">
+        <img src="../../template/images/icon-03.png">
+        <img src="../../template/images/importante.png">
+        <img src="../../template/images/lightbulb.png">
+        <img src="../../template/images/link.png">
+        <img src="../../template/images/link_pdf_hover.png">
+        <img src="../../template/images/link_pdf_normal.png">
+        <img src="../../template/images/logo-senac.png">
+        <img src="../../template/images/mark-icon.png">
+        <img src="../../template/images/mark-icon02.png">
+        <img src="../../template/images/midia.png">
+        <img src="../../template/images/monitor.png">
+        <img src="../../template/images/nao_curtir.png">
+        <img src="../../template/images/pergunta.png">
+        <img src="../../template/images/pesquisa.png">
+        <img src="../../../template/images/play.png">
+        <img src="../../../template/images/radio_flat.png">
+        <img src="../../../template/images/refletir.png">
+        <img src="../../../template/images/saiba_mais.png">
+        <img src="../../../template/images/senac_loader.png">
+        <img src="../../../template/images/tanamidia.png">
+        <img src="../../../template/images/transcricao.png">
+        <img src="../../../template/images/transcricao_small.png">
+        <img src="../../../template/images/tv.png">
+        <img src="../../../template/images/tv_bottom.png">
+        <img src="../../../template/images/zoom.png">
+        <img src="../../../template/images/zoom_ie.cur">
+        <img src="../../../template/images/zoom_ie.png">
+        <!-- adicionar as imagens customizadas aqui abaixo -->
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../../template/js/jquery.min.js"></script>
+    <script src="../../template/js/bootstrap.min.js"></script>
+    <script src="../../template/js/jquery.magnific-popup.min.js"></script>
+    <script src="../../template/js/print.js"></script>
+    <script src="../../template/js/template.config.js"></script>
+    <script src="../../template/js/images.loader.js"></script>
+    <noscript>
+        <style media="screen">
+            .over-loader {
+                display: none;
+            }
+
+            .alertaJS {}
+        </style>
+    </noscript>
+</body>
+
+</html>
+<script>
+    //inicializa zoom na imagem
+    $('.zoom-imagem').magnificPopup({
+        type: 'image',
+        mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+        zoom: {
+            enabled: true, // By default it's false, so don't forget to enable it
+
+            duration: 300, // duration of the effect, in milliseconds
+            easing: 'ease-in-out', // CSS transition easing function
+
+            // The "opener" function should return the element from which popup will be zoomed in
+            // and to which popup will be scaled down
+            // By defailt it looks for an image tag:
+            opener: function (openerElement) {
+                // openerElement is the element on which popup was initialized, in this case its <a> tag
+                // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+                return openerElement.is('img') ? openerElement : openerElement.find('img');
+            }
+        },
+        image: {
+            markup: '<div class="mfp-figure">' +
+                '<div class="mfp-close"></div>' +
+                '<div class="mfp-img"></div>' + // Floated left
+                '<div class="mfp-bottom-bar">' + '<figcaption>' + '<div class="mfp-title" style="text-align:center"></div>' +
+                '<div class="mfp-counter"></div>' + '</figcaption>' +
+                '</div>' +
+                '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
+
+            cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
+
+            tError: '<a href="%url%">A imagem</a> não pode ser carregada.' // Error message
+        }
+    });
+
+    //inicializa popover
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+    //inicializa tooltip
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+    $('.voltar-topo').click(function () {
+        $('html, body, .modal').animate({ scrollTop: 0 }, 'slow'); //slow, medium, fast
+    })
+
+    $('#slider-01').carousel({
+        interval: false
+    })
+</script>
+<!-- Script de configuração do HANDTALK -->
+<script>
+	var scriptElem = document.createElement("script");
+	scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+	  scriptElem.charset = "UTF-8",
+	  scriptElem.onload = function () {
+		window.ht = new HT({
+		  token: "bf5b7efb148a829a126a0e0c9fd533bf",
+		  align: "top",
+		  videoEnabled: true,
+		  ytEmbedReplace: true,
+		  mobileConfig: {
+			align: "right",
+			actionsAlign: "top",
+			customButtonStyle: {
+			  borderRadius: "6px",
+			  size: "38px",
+			  horizontalMargin: "13px",
+			  bottomMargin: "140px",
+			  rightMargin: "40px"
+			}
+		  }
+		});
+		$('.ht-skip').attr("aria-hidden", "true")
+	  },
+	  document.body.appendChild(scriptElem);
+  </script>
+<!-- --------------------------------------------------------------------- -->

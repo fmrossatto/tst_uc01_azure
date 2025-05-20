@@ -1,0 +1,30 @@
+@font-face {
+    font-family: slab;
+    src: url(fonts/roboto-slab-regular.woff);
+    src: url(fonts/roboto-slab-regular.ttf);
+}
+.slab {
+font-family: slab;	
+}
+@font-face {
+    font-family: slab-bold;
+    src: url(fonts/roboto-slab-bold.woff);
+    src: url(fonts/roboto-slab-bold.ttf);
+}
+.slab-bold {
+	font-family: slab-bold;
+}
+@font-face {
+    font-family: slab-lite;
+    src: url(fonts/roboto-slab-lite.woff);
+    src: url(fonts/roboto-slab-lite.ttf);
+}
+.slab-lite {
+	font-family: slab-lite;
+}
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}

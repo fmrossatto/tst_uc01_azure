@@ -1,0 +1,259 @@
+body{
+    background: url(../images/background.jpg);
+}
+
+
+.imagem1 img{
+    width: 300px;
+}
+p{
+    line-height: 2em;
+}
+h2, h3{
+    color: #196281;
+}
+h3{
+    font-weight: 100;
+}
+
+.legenda-imagem{
+    font-size: 14px;
+}
+
+.modal {
+    z-index: 1040 !important;
+}
+.modal-100 {
+    background-color: white;
+}
+
+.modal-100 .modal-dialog {
+    width: 100%;
+    max-width: 1100px;
+    box-shadow: none !important;
+    margin: 40px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.modal-100 .modal-content {
+    box-shadow: none !important;
+    border: 0;
+}
+
+.modal-backdrop {
+    z-index: 1039 !important;
+}
+
+.close{
+    opacity: unset;
+}
+
+.voltar-topo{
+    cursor: pointer;
+    width: 252px;
+    height: 66px;
+    background: url(../images/voltar.png);
+    margin: 70px auto 0; 
+}
+.voltar-topo:hover{
+    background: url(../images/voltar_hover.png);
+}
+
+
+
+.destaque-amarelo {
+    border: 5px solid #F4B63B;
+    padding-left: 48px;
+    padding-right: 48px;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.icone-destaque {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -42px;
+    width: 80px;
+}
+
+.painel-abas{
+    border: 3px solid #196380;
+    width: 90%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.painel-abas p{
+    color: #196380;
+}
+
+.painel-abas ul{
+    padding: 0;
+    margin: 15px;
+}
+.painel-abas ul li{
+    list-style-image: unset;
+    color: #196380;
+}
+
+.nav-tabs{
+    border-bottom: 0px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#painel1{
+    background: url(../images/painel1.png);
+    height: 77px;
+    float: left;
+    width: 114px;
+    margin-right: 10px;
+}
+#painel1:hover{
+    background: url(../images/painel1_hover.png);
+}
+#painel1.active{
+    background: url(../images/painel1_selecionado.png);
+    height: 97px;
+    float: left;
+    width: 114px;
+    margin-right: 10px;
+}
+#painel2{
+    background: url(../images/painel2.png);
+    height: 77px;
+    float: left;
+    width: 114px;
+    margin-right: 10px;
+}
+#painel2:hover{
+    background: url(../images/painel2_hover.png);
+}
+#painel2.active{
+    background: url(../images/painel2_selecionado.png);
+    height: 97px;
+    float: left;
+    width: 114px;
+    margin-right: 10px;
+}
+#painel3{
+    background: url(../images/painel3.png);
+    height: 77px;
+    float: left;
+    width: 114px;
+    margin-right: 10px;
+}
+#painel3:hover{
+    background: url(../images/painel3_hover.png);
+}
+#painel3.active{
+    background: url(../images/painel3_selecionado.png);
+    height: 97px;
+    float: left;
+    width: 114px;
+    margin-right: 10px;
+}
+#painel4{
+    background: url(../images/painel4.png);
+    height: 77px;
+    float: left;
+    width: 114px;
+    margin-right: 10px;
+}
+#painel4:hover{
+    background: url(../images/painel4_hover.png);
+}
+#painel4.active{
+    background: url(../images/painel4_selecionado.png);
+    height: 97px;
+    float: left;
+    width: 114px;
+    margin-right: 10px;
+}
+#painel5{
+    background: url(../images/painel5.png);
+    height: 77px;
+    float: left;
+    width: 114px;
+    margin-right: 10px;
+}
+#painel5:hover{
+    background: url(../images/painel5_hover.png);
+}
+#painel5.active{
+    background: url(../images/painel5_selecionado.png);
+    height: 97px;
+    float: left;
+    width: 114px;
+    margin-right: 10px;
+}
+#painel6{
+    background: url(../images/painel6.png);
+    height: 77px;
+    float: left;
+    width: 114px;
+}
+#painel6:hover{
+    background: url(../images/painel6_hover.png);
+}
+#painel6.active{
+    background: url(../images/painel6_selecionado.png);
+    height: 97px;
+    float: left;
+    width: 114px;
+}
+.nav-tabs>li>a{
+    height: 77px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    background-color: unset;
+    border: unset;
+    display: inline-block;
+}
+
+.nav-tabs>li>a:hover{
+    background-color: unset !important;
+    border-color: unset !important;
+    color: unset !important;
+    border: unset;
+}
+
+@media screen and (max-width: 994px){
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+    #abas li, #abas li.active{
+        width: 114px !important;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 85px;
+    }
+    #painel1.active{
+        background: url(../images/painel1_hover.png);
+    }
+    #painel2.active{
+        background: url(../images/painel2_hover.png);
+    }
+    #painel3.active{
+        background: url(../images/painel3_hover.png);
+    }
+    #painel4.active{
+        background: url(../images/painel4_hover.png);
+    }
+    #painel5.active{
+        background: url(../images/painel5_hover.png);
+    }
+    #painel6.active{
+        background: url(../images/painel6_hover.png);
+    }
+}
+@media screen and (max-width: 1200px){
+    .painel-abas{
+        width: 100%;
+    }  
+}

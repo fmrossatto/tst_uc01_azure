@@ -1,0 +1,134 @@
+body{
+    background: url(../images/background.jpg);
+}
+
+
+.imagem1 img{
+    width: 300px;
+}
+p{
+    line-height: 2em;
+}
+
+.bt{
+    width: 355px;
+    height: 125px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+.bt1{
+    background: url(../images/bt_1.png);
+}
+.bt1:hover{
+    background: url(../images/bt_1_hover.png);
+}
+.bt2{
+    background: url(../images/bt_2.png);
+}
+.bt2:hover{
+    background: url(../images/bt_2_hover.png);
+}
+.bt3{
+    background: url(../images/bt_3.png);
+}
+.bt3:hover{
+    background: url(../images/bt_3_hover.png);
+}
+
+.legenda-imagem{
+    font-size: 14px;
+}
+
+.modal {
+    z-index: 1040 !important;
+}
+.modal-100 {
+    background-color: white;
+}
+
+.modal-100 .modal-dialog {
+    width: 100%;
+    max-width: 1100px;
+    box-shadow: none !important;
+    margin: 40px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.modal-100 .modal-content {
+    box-shadow: none !important;
+    border: 0;
+}
+
+.modal-backdrop {
+    z-index: 1039 !important;
+}
+
+.close{
+    opacity: unset;
+}
+
+.voltar-topo{
+    cursor: pointer;
+    width: 252px;
+    height: 66px;
+    background: url(../images/voltar.png);
+    margin: 70px auto 0; 
+}
+.voltar-topo:hover{
+    background: url(../images/voltar_hover.png);
+}
+@media only screen and (min-width: 990px) {
+    .titulo {
+        background-color: #F7B53B;
+        border-bottom: 10px solid #FBD200;
+        left: -12%;    
+        padding: 0 33px 10px;
+        box-shadow: 8px 8px 8px rgba(0,0,0,0.1);
+        z-index: 99;
+    }
+    
+    .titulo h2{
+        color: #000000;
+        font-weight: 100;
+        line-height: 38px;
+        font-size: 26px;
+    }
+    
+    .imagem1 {
+        right: 29%;
+        z-index: 9;
+        top: 60px;
+        float: right;
+    }
+    
+    .imagem1 img{
+        width: 620px;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+.container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.bt1 {
+    background: url(../images/bt_1.png) no-repeat;
+    background-size: contain;
+}
+.bt2 {
+    background: url(../images/bt_2.png) no-repeat;
+    background-size: contain;
+}
+.bt3 {
+    background: url(../images/bt_3.png) no-repeat;
+    background-size: contain;
+}
+.bt {
+    width: 100%;
+    height: 102px;
+}
+}

@@ -1,0 +1,194 @@
+.sub-header-laranja {
+	background-color: red;
+	margin-top: 80px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #F7B53B;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+	z-index: 9999;
+	position: absolute;
+	width: 100%;
+}
+body {
+	background-color: #fff;
+}
+.bg-menu-conteudo {
+	background-image: url(../images/fundo-bg.png);
+	background-repeat: repeat-x;
+	background-position: top left;
+	z-index: 9998;
+	position: absolute;
+	margin-top: 210px;
+	width: 100%;
+	text-align: center;
+}
+.menu-item {
+	display: inline-block;
+	width: 181px;
+	height: 221px;
+	cursor: pointer;
+}
+.menu-item.bg1 {
+	background-image: url(../images/bt1.png);
+}
+.menu-item.bg2 {
+	background-image: url(../images/bt2.png);
+}
+.menu-item.bg3 {
+	background-image: url(../images/bt3.png);
+}
+.menu-item.bg4 {
+	background-image: url(../images/bt4.png);
+}
+.menu-item.bg5 {
+	background-image: url(../images/bt5.png);
+}
+.menu-item.bg1:hover {
+	background-image: url(../images/bt1_hover.png);
+}
+.menu-item.bg2:hover {
+	background-image: url(../images/bt2_hover.png);
+}
+.menu-item.bg3:hover {
+	background-image: url(../images/bt3_hover.png);
+}
+.menu-item.bg4:hover {
+	background-image: url(../images/bt4_hover.png);
+}
+.menu-item.bg5:hover {
+	background-image: url(../images/bt5_hover.png);
+}
+.menu-item.bg1.active {
+	background-image: url(../images/bt1_active.png);
+}
+.menu-item.bg2.active {
+	background-image: url(../images/bt2_active.png);
+}
+.menu-item.bg3.active {
+	background-image: url(../images/bt3_active.png);
+}
+.menu-item.bg4.active {
+	background-image: url(../images/bt4_active.png);
+}
+.menu-item.bg5.active {
+	background-image: url(../images/bt5_active.png);
+}
+
+/*** estilo para gaitinha ***/
+.panel-heading {
+	background-color: #F7B53B !important;
+	background-image: url(../images/expandir.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	color: #fff !important;
+	font-weight: bold;
+	font-size: 17px;
+	cursor: pointer;
+	padding-left: 50px;
+}
+.panel-heading.recolher {
+	background-image: url(../images/recolher.png);
+}
+.panel-heading.clicado {
+	background-color: #d68048 !important;
+}
+.panel-heading:hover {
+	background-color: #d68048 !important;
+}
+/*** estilo para gaitinha ***/
+
+.parallax-1 {
+	height: 900px;
+	text-align: center;
+}
+.sub-header-title {
+	color: #fff;
+}
+.grupo-imprimir button.bto-imprimir {
+	background-color: #D1863B;
+	color: #fff;
+}
+.destaque-borda {
+	border: 4px solid #F7B53B;
+	padding:40px;
+	padding-bottom: 0;
+}
+.title-img {
+	max-width: 100%;
+	margin-top: 15%;
+}
+.botao-init {
+	margin-top: 5%;
+}
+.botao-init:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+.bloco1 {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.botoes {
+	text-align: center;
+}
+.botao-painel {
+	width: 214px;
+	height: 214px;
+	display: inline-block;
+	margin-right: 18px;
+	margin-top: 18px;
+	transition: 400ms;
+}
+.botao-painel:hover {
+	opacity: 0.7;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.botao-painel.bt1 {
+	background-image: url(../images/bt01.png);
+}
+.botao-painel.bt2 {
+	background-image: url(../images/bt02.png);
+}
+.botao-painel.bt3 {
+	background-image: url(../images/bt03.png);
+}
+.botao-painel.bt4 {
+	background-image: url(../images/bt04.png);
+}
+.botao-painel.bt5 {
+	background-image: url(../images/bt05.png);
+}
+.botao-painel.bt6 {
+	background-image: url(../images/bt06.png);
+}
+.botao-painel.bt7 {
+	background-image: url(../images/bt07.png);
+}
+.botao-painel.bt8 {
+	background-image: url(../images/bt08.png);
+}
+
+@media (max-width: 1200px) {
+	.parallax-1 {
+		height: 600px;
+		text-align: center;
+		transform: unset;
+	}
+
+}
+
+@media (max-width: 768px) {
+	.parallax-1 {
+		height: 400px;
+		text-align: center;
+		transform: unset;
+	}
+	.title-img {
+	max-width: 100%;
+	margin-top: 30%;
+	}
+	.botao-init {
+		margin-top: 5%;
+	}
+}

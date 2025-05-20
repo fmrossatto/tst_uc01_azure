@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Tela Inicial</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="template/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Mateus Silva Bastos</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">162400400.000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Mateus Silva Bastos</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-lg-2 pull-right text-right">
+					<img src="assets/logo_senac.png" class="img-responsive">
+				</div>
+				<div class="col-xs-12 col-lg-10">
+					<h1>ORGANIZAR E EXECUTAR ATIVIDADES ADMINISTRATIVAS NOS PROCESSOS DE RECURSOS HUMANOS DA ORGANIZAÇÃO</h1>
+					<hr>
+				</div>
+				<div class="col-xs-12">
+					<h4><strong>Clique</strong> ou <strong>toque</strong> para acessar os conteúdos.</h4>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="container grupos">
+
+		<!-- grupo 1 -->
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>1ª Semana</h2>
+			</div>
+		</div>
+		<div class="row grupo" data-group="grupo1">
+			<h3 class="hidden-lg hidden-md">A FAZER</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">A FAZER</h3>
+
+				<ul class="drag-inner-list" id="1" data-index="lista-fazer">
+					<li class="drag-item fazer" data-item="link1">
+						<p><a href="../1/index.html" target="_blank" class="link">Planejamento de carreira</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="drag-item fazer" data-item="link2">
+						<p><a href="../2/index.html" target="_blank" class="link">Introdução às funções da administração</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="drag-item fazer" data-item="link3">
+						<p><a href="../5/index.html" target="_blank" class="link">Gestão de recursos humanos</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+
+					
+				</ul>
+				<div class="mao">
+					<img src="assets/ico_mao.png" class="img-responsive">
+				</div>	
+			</div>
+			
+			<h3 class="hidden-lg hidden-md">SENDO FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
+				<h3 class="visible-lg visible-md">SENDO FEITO</h3>
+				<ul class="drag-inner-list" id="2" data-index="lista-fazendo">
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">FEITO</h3>
+				<div class="setinha"></div>
+				<div class="exemplo"></div>
+				<ul class="drag-inner-list" id="3" data-index="lista-feito">
+				</ul>
+			</div>
+		</div>
+		<!-- grupo 1 -->
+
+		<!-- grupo 2 -->
+		<div class="row margin50" >
+			<div class="col-lg-12">
+				<h2>2ª Semana</h2>
+			</div>
+		</div>
+		<div class="row grupo" data-group="grupo2">
+			<h3 class="hidden-lg hidden-md">A FAZER</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">A FAZER</h3>
+				<ul class="drag-inner-list" id="4" data-index="lista-fazer">
+					<li class="drag-item fazer" data-item="link4">
+						<p><a href="../11_sist_oper_client/sistema_operacional_cliente/index.html" target="_blank" class="link">Sistema operacional cliente</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link5">
+						<p><a href="../09_metd_tec_arquiv_procol/index.html" target="_blank" class="link">Métodos e técnicas de arquivo e protocolo</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link6">
+						<p><a href="../12_instrumt_tec_col_dados/index.html" target="_blank" class="link">Instrumentos e técnicas de coleta de dados</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">SENDO FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
+				<h3 class="visible-lg visible-md">SENDO FEITO</h3>
+				<ul class="drag-inner-list" id="5" data-index="lista-fazendo">
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">FEITO</h3>
+				<ul class="drag-inner-list" id="6" data-index="lista-feito">
+				</ul>
+			</div>
+		</div>
+		<!-- grupo 2 -->
+
+		<!-- grupo 3 -->
+		<div class="row margin50">
+			<div class="col-lg-12">
+				<h2>3ª Semana</h2>
+			</div>
+		</div>
+		<div class="row grupo" data-group="grupo3">
+			<h3 class="hidden-lg hidden-md">A FAZER</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">A FAZER</h3>
+				<ul class="drag-inner-list" id="7" data-index="lista-fazer">
+					<li class="drag-item fazer" data-item="link7">
+						<p><a href="../6/index.html" target="_blank" class="link">Indicadores de recursos humanos</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link8">
+						<p><a href="../8_pdf/index.html" target="_blank" class="link">Técnicas de redação empresarial e oficial</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">SENDO FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
+				<h3 class="visible-lg visible-md">SENDO FEITO</h3>
+				<ul class="drag-inner-list" id="8" data-index="lista-fazendo">
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">FEITO</h3>
+				<ul class="drag-inner-list" id="9" data-index="lista-feito">
+				</ul>
+			</div>
+		</div>
+		<!-- grupo 3 -->
+
+		<!-- grupo 4 -->
+		<div class="row margin50">
+			<div class="col-lg-12">
+				<h2>4ª Semana</h2>
+			</div>
+		</div>
+		<div class="row grupo" data-group="grupo4">
+			<h3 class="hidden-lg hidden-md">A FAZER</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">A FAZER</h3>
+				<ul class="drag-inner-list" id="10" data-index="lista-fazer">
+					<li class="drag-item fazer" data-item="link9">
+						<p><a href="../07_atend_client_relac_interp/index.html" target="_blank" class="link">Atendimento ao cliente e relacionamento interpessoal</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link10">
+						<p><a href="../3/index.html" target="_blank" class="link">Organização</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">SENDO FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
+				<h3 class="visible-lg visible-md">SENDO FEITO</h3>
+				<ul class="drag-inner-list" id="11" data-index="lista-fazendo">
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">FEITO</h3>
+				<ul class="drag-inner-list" id="12" data-index="lista-feito">
+				</ul>
+			</div>
+		</div>
+		<!-- grupo 4 -->
+
+		<!-- grupo 5 -->
+		<div class="row margin50">
+			<div class="col-lg-12">
+				<h2>5ª Semana</h2>
+			</div>
+		</div>
+		<div class="row grupo" data-group="grupo5">
+			<h3 class="hidden-lg hidden-md">A FAZER</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">A FAZER</h3>
+				<ul class="drag-inner-list" id="13" data-index="lista-fazer">
+					<li class="drag-item fazer" data-item="link11">
+						<p><a href="../4/index.html" target="_blank" class="link">Processos organizacionais</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link12">
+						<p><a href="../10_model_docment/index.html" target="_blank" class="link">Modelos de documentos</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">SENDO FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
+				<h3 class="visible-lg visible-md">SENDO FEITO</h3>
+				<ul class="drag-inner-list" id="14" data-index="lista-fazendo">
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">FEITO</h3>
+				<ul class="drag-inner-list" id="15" data-index="lista-feito">
+				</ul>
+			</div>
+		</div>
+		<!-- grupo 5 -->
+
+		<div class="row">
+			<div class="col-lg-2 pull-right text-right margin50">
+				<a href="" class="voltar-topo"><img src="assets/btn_topo.png" alt=""></a>
+			</div>
+		</div>
+		
+		<div class="modal fade" id="modal-id">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="separador">
+							<h4>Mover para:</h4>
+						</div>
+						<div class="separador">
+							<p class="botao-fazendo">Sendo feito</p>
+						</div>
+						<div class="separador">
+							<p class="botao-feito">Feito</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<!-- partial -->
+	<script src="template/js/jquery.min.js"></script>
+
+	<script src='dragula.min.js'></script>
+	<script src="script.js"></script>
+	<script src="template/js/bootstrap.min.js"></script>
+	<script src="jquery.mobile.js"></script>
+
+</body>
+
+</html>

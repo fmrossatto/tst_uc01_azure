@@ -1,0 +1,80 @@
+/* custom css */
+div.center {
+	text-align: center;
+	max-width: 100%;
+}
+div.center img {
+	max-width: 100%;
+}
+
+ol > li {
+  list-style-type: none;
+}
+.lista-alfa li{
+	list-style-type: inherit;
+}
+.painel-bto {
+	display: inline-block;
+	width: 93px;
+	height: 123px;
+	padding-top: 5px;
+	background-image: url(../images/painel-bg.png);
+	background-repeat: no-repeat;
+	
+}
+.painel-bto:hover {
+	background-image: url(../images/painel-bg-hover.png);
+	cursor: pointer;
+}
+.painel-bto.active {
+	background-image: url(../images/active.png);
+}
+.painel-bg {
+	background-image: url(../images/painel-bg.png);
+	background-position: top left;
+	background-repeat: repeat-x;
+	width: 100%;
+}
+.scroll-lateral {
+	overflow-x: scroll;
+	max-width: 100%;
+}
+.tab-content {
+	border: 2px solid #f7b53b;
+	padding:30px;
+	margin-top: -40px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.legenda {
+	font-size: 12px;
+	word-wrap: break-word;
+	word-break: break-all;
+	text-align: center;
+	font-weight: bold;
+}
+.icone-pdf {
+	background-color: #fff;
+	cursor: pointer;
+}
+.caixa-destaque.com-borda {
+	border: 2px dashed #d3891c;
+	transition: 400ms;
+}
+.caixa-destaque.com-borda:hover {
+	background-color: #f7b53b;
+	color: #fff;
+}
+ul.normal li {
+	list-style-image: none;
+
+}
+.panel-heading {
+    background-color: #F7B53B !important;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}

@@ -1,0 +1,215 @@
+
+body{
+    background: url(../objetos/BACKGROUND.jpg);
+}
+.fundo-tecnicos{
+	background: unset;
+	width: unset;
+	max-width: unset;
+	padding: 0;
+	margin: 0;
+}
+.conteudo{
+	max-width: 990px;
+	margin: 0 auto;
+	overflow: hidden;
+    padding-bottom: 30px;
+    display: block;
+    clear: both;
+}
+.background {
+	height: 700px;
+	clear: both;
+    float: left;
+    width: 100%;
+    background-attachment: fixed !important;
+}
+.bg-escuro{
+	clear: both;
+    float: left;
+    width: 100%;
+}
+.grupo-imprimir{
+	margin-bottom: 20px; 
+	margin-top: 100px; 
+	width: 80%;
+}
+.grupo-imprimir button.bto-imprimir{color: #fff;}
+.bg-titulo{background: url('../objetos/1.jpg') no-repeat;}
+.bg2{background: url('../objetos/2.jpg') no-repeat;}
+.bg3{background: url('../objetos/3.jpg') no-repeat;}
+.bg4{background: url('../objetos/4.jpg') no-repeat;}
+.bg5{background: url('../objetos/5.jpg') no-repeat;}
+
+.bg-titulo h2{
+	margin-top: 280px;
+	display: inline;
+    background-color: #E5B347;
+    color: #38627E;
+    font-size: 53px;
+    clear: both;
+    float: left;
+    padding: 5px 10px;
+}
+h3{
+	color: #006382;
+	font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    float: left;
+    font-weight: bold;
+}
+p, li{
+	color: #000000;
+}
+.setas{
+	float: right;
+	margin-top: 80px;
+}
+.pontos{
+	float: left;
+	clear: both;
+	margin-bottom: 40px;
+}
+.caixa-destaque{
+	background: none;
+	border-radius: 0;
+	border: 12px solid #ffb629;
+	width: 100%;
+	margin: 50px 0;
+	padding: 10px 30px;
+}
+.destaque-amarelo {
+    border: 5px solid #F4B63B;
+    padding-left: 48px;
+    padding-right: 48px;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icone-destaque {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -42px;
+    width: 80px;
+}
+.caixa-destaque.borda-fina{
+    border-width: 4px;
+    padding: 40px;
+}
+.bg-escuro{background: #232323;}
+.bg-escuro p, .bg-escuro li, .bg-escuro h3, .bg-escuro h4{ color: #fff; }
+h4{
+	margin-top: 60px;
+	margin-bottom: 20px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+ul{
+	padding-left: 0;
+	margin-left: 0;
+}
+ul li{
+	list-style: none;
+	background: url('../objetos/marcador_lista.png') no-repeat left 3px;
+	padding-left: 30px;
+}
+.seta-azul li{background: url('../objetos/marcador_lista2.png') no-repeat left 3px;}
+.icone-importante{
+	background-image: url('../objetos/importante.png');
+	background-position: 20px center;
+	background-repeat: no-repeat;
+	padding-left: 150px;
+	min-height: 150px;
+}
+.paper{
+	background-image: none;
+	background-color: #ffb629;
+	width: 100%;
+	margin: 50px 0;
+	padding: 5px 30px;
+}
+.paper p{
+	margin: 1.4em 0 1.4em 0;    
+	font-size: 18px;
+}
+.cat h4{
+	color: #026584;
+}
+.icone-saiba-mais{
+	background: url('../images/saiba_mais.png') no-repeat 30px center #fff;
+	padding: 15px 15px;
+	padding-left: 130px;
+}
+.icone-saiba-mais p{color: #232323;}
+@media screen and (max-width: 780px){
+	.conteudo{max-width: 600px;}
+}
+@media screen and (max-width: 480px){
+	.bg-titulo h2{
+		margin-top: 100px;
+		font-size: 38px;
+	}
+	.background{
+		display: none;
+	}
+	.conteudo{
+		max-width: 380px;
+		padding: 0 30px;
+	}
+}
+
+.infografico{
+    background-color: #0A6280;
+    padding: 20px 50px;
+
+}
+
+.infografico p{
+    color: #fff;
+}
+
+.infografico p::before{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 12px;
+    border-color: transparent transparent transparent #fff;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.citacao{
+    width: 80%;
+    margin-left: auto;
+}
+.citacao p{
+    font-size: 14px;
+}
+
+.legenda-fluxograma p{
+    color: #006382;
+}
+.legenda-imagem{
+    font-size: 14px;
+}
+
+.voltar-topo{
+    cursor: pointer;
+    width: 252px;
+    height: 66px;
+    background: url(../objetos/voltar.png);
+    margin: 70px auto 0; 
+}
+
+.voltar-topo:hover{
+    background: url(../objetos/voltar_hover.png);
+}

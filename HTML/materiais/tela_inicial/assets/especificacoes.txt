@@ -1,0 +1,132 @@
+Titulo UC
+Fira Sans Bold 53px #ffffff
+
+font-family: 'Fira Sans', sans-serif;
+font-weight: 700;
+font-size: 53px,
+color: #fffffff
+
+Barra abaixo do título: 
+width: 200px;
+height: 10px;
+border-radius: 5px
+background: #db9600
+
+
+Subtitulo Grupo
+Fira Sans Light 40px #ffffff
+
+font-family: 'Fira Sans', sans-serif;
+font-weight: 300;
+font-size: 40px,
+color: #fffffff
+
+BG do Grupo
+background: #f7f7f7;
+border-radius: 10px;
+
+Linha que divide o grupo
+border-right-style: dashed;
+border-color: #102c35;
+
+Subtitulo Card ( fazer fazendo )
+Fira Sans Medium 30px #00558a
+
+font-family: 'Fira Sans', sans-serif;
+font-weight: 300;
+font-size: 30px,
+color: #00558a
+
+
+Font do card:
+Fira Sans Condesed Light 16px #000000
+
+font-family: 'Fira Sans Condensed', sans-serif;
+font-weight: 300;
+font-size: 16px,
+color: #000000
+
+
+
+Box Menu:
+backgroud: #00558a
+border-radius: 6px
+border-bottom: 1px solid #00328a
+
+Fonte do "Mover para:"
+Fira Sans Condesed Light 16px #ffffff
+
+font-family: 'Fira Sans Condensed', sans-serif;
+font-weight: 300;
+font-size: 16px,
+color: #ffffff
+
+Fonte dos itens:
+Fira Sans Condensed Medium 16px #ffffff
+
+font-family: 'Fira Sans Condensed', sans-serif;
+font-weight: 500;
+font-size: 16px,
+color: #ffffff
+
+
+___________
+
+
+Tablet
+
+
+Titulo UC
+Fira Sans Bold 40px #ffffff
+
+font-family: 'Fira Sans', sans-serif;
+font-weight: 700;
+font-size: 40px,
+color: #fffffff
+
+
+__________
+
+
+Mobile
+
+Titulo UC
+Fira Sans Bold 30px #ffffff
+
+font-family: 'Fira Sans', sans-serif;
+font-weight: 700;
+font-size: 30px,
+color: #fffffff
+
+
+Menu do card aberto:
+
+Overlay preto com opacidade 65%
+
+box
+background: #ffffff
+border-radius: 12px
+border-bottom: 1px solid #e7e7e0
+
+Fonte do "Mover para:"
+Fira Sans Condesed Light 22px #00558a
+
+font-family: 'Fira Sans Condensed', sans-serif;
+font-weight: 300;
+font-size: 22px,
+color: #00558a
+
+Fonte dos itens:
+Fira Sans Condensed Medium 22px #00558a
+
+font-family: 'Fira Sans Condensed', sans-serif;
+font-weight: 500;
+font-size: 22px,
+color: #00558a
+
+
+
+
+
+
+
