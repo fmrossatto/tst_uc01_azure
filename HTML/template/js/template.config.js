@@ -7,7 +7,7 @@ function init()
 // identificar com checkURI qual é a página atual e montar ela.
 // caso não exista, procurar no localStorage se existe uma página salva.
 
-    $("#booklet .paginas .pagina").css("display","none");
+    $("#booklet .paginas .pagina").css("display","block");
 
     if(checkURI("page") == false)
     {
