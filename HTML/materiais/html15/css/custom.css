@@ -59,7 +59,7 @@ p{
     width: 252px;
     height: 66px;
     background: url(../images/voltar.png);
-    margin: 70px auto 0; 
+    margin: 150px auto 0; 
 }
 .voltar-topo:hover{
     background: url(../images/voltar_hover.png);
@@ -121,22 +121,22 @@ p{
 }
 
 .btn-constituicao{
-    background: url(../images/bt_1.png) no-repeat;
-    height: 130px;
-    width: 324px;
+    background: url('../images/btn_a.png') no-repeat;
+    height: 96px;
+    width: 215px;
     margin: auto;
 }
 .btn-constituicao:hover{
-    background: url(../images/bt_1_h.png) no-repeat;
+    background: url('../images/btn_a_hover.png') no-repeat;
 }
-.btn-codigo{
-    background: url(../images/bt_2.png) no-repeat;
-    height: 130px;
-    width: 324px;
+.btn-clt{
+    background: url('../images/btn_b.png') no-repeat;
+    height: 96px;
+    width: 215px;
     margin: auto;
 }
-.btn-codigo:hover{
-    background: url(../images/bt_2_h.png) no-repeat;
+.btn-clt:hover{
+    background: url('../images/btn_b_hover.png') no-repeat;
 }
 @media only screen and (max-width: 994px) {
     .ilustracao{
